@@ -52,10 +52,48 @@
 }
 
 .preview-right .text-container h2 {
-    
+
 }
 
 .preview-right .text-container p {
     
 }
 
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px) {
+   
+}
+
+@media (max-width: 768px) {
+   .preview {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-wrap: wrap;
+       flex-direction: column;
+       height: 650px;
+   }
+
+   .preview-left {
+        width: 100%;
+        height: 65%;
+   }
+
+   .preview-right {
+        width: 100%;
+        height: 35%;
+    }
+    
+    .preview-right .text-container {
+        
+    }
+}
+
+@media (max-width: 1024px) {
+    .preview-grid {
+        width: 95%;
+        margin: auto;
+    }
+}

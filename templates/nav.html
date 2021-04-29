@@ -1,4 +1,6 @@
 <nav>
+    <i class="bi bi-list" id="bm-toggle-btn-open" onclick="toggleMenu();"></i>
+    <i class="bi bi-x" id="bm-toggle-btn-close" onclick="toggleMenu();"></i>
     <ul>
         <li>REDAKSJONELT</li>
         <li>KOMMERSIELT</li>
@@ -9,3 +11,14 @@
         <li>KONTAKT</li>
     </ul>
 </nav>
+
+<div id="hb-menu">
+    <div class="menu-text-container">
+        <p>REDAKSJONELT</p>
+        <p>KOMMERSIELT</p>
+        <p>OM OSS</p>
+        <p>KONTAKT</p>
+    </div>    
+</div>
+
+<script src="{{ url_for('static', filename='javascript/nav-logic.js') }}"></script>
