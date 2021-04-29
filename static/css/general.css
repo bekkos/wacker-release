@@ -1,0 +1,44 @@
+@import url("https://use.typekit.net/oxe7unb.css");
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+html, body {
+    /* overflow-x: hidden; */
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 2;
+}
+
+nav #title {
+    color: black;
+    font-family: 'Avory-i-latin';
+    font-size:4rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+nav ul {
+    list-style: none;
+    width: 30%;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+

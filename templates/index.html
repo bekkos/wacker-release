@@ -1,0 +1,60 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+{% endblock %}
+
+{% block body %}
+{% include 'nav.html' %}
+<div class="preview-grid">
+    <!-- -->
+    <div class="preview" data-aos="fade-left">
+        <div class="preview-left">
+            <img src="{{ url_for('static', filename='images/article_1/01.jpg') }}" alt="">
+        </div>
+        <div class="preview-right">
+            <div class="text-container">
+                <h2>Lukten av svidd gummi</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
+                <br>
+                <button class="btn btn-light">Les mer</button>
+            </div>
+        </div>
+    </div>
+    <!-- -->
+    <div class="preview" data-aos="fade-right">
+        <div class="preview-left" style="float:right;">
+            <img src="{{ url_for('static', filename='images/article_2/01.jpg') }}" alt="">
+        </div>
+        <div class="preview-right" style="float:left;">
+            <div class="text-container">
+                <h2>Der de lager skyer</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
+                <br>
+                <button class="btn btn-light">Les mer</button>
+            </div>
+        </div>
+    </div>
+    <!-- -->
+    <div class="preview" data-aos="fade-left">
+        <div class="preview-left">
+            <img src="{{ url_for('static', filename='images/article_3/01.jpg') }}" alt="">
+        </div>
+        <div class="preview-right">
+            <div class="text-container">
+                <h2>Klimafornekter Per</h2>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
+                <br>
+                <button class="btn btn-light">Les mer</button>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+
+
+{% endblock %}
