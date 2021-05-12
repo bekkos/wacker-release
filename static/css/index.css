@@ -11,6 +11,7 @@
 
 .preview {
     width: 90%;
+    max-width: 1000px;
     height: 500px;
     background-color: black;
     margin: 5vh auto;
