@@ -2,24 +2,18 @@
 
 {% block head %}
 <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+<script>
+    function redir(id) {
+        window.location.href = "./article?id=" + id;
+    }
+
+
+</script>
 {% endblock %}
 
 {% block body %}
 {% include 'nav.html' %}
 <div class="preview-grid">
-    <!-- -->
-    <div class="preview" data-aos="fade-left">
-        <div class="preview-left">
-            <img src="{{ url_for('static', filename='images/article_1/01.jpg') }}" alt="">
-        </div>
-        <div class="preview-right">
-            <div class="text-container">
-                <h2>Lukten av svidd gummi</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
-                <button class="btn btn-light">Les mer</button>
-            </div>
-        </div>
-    </div>
     <!-- -->
     <div class="preview" data-aos="fade-right">
         <div class="preview-left" style="float:right;">
@@ -28,27 +22,13 @@
         <div class="preview-right" style="float:left;">
             <div class="text-container">
                 <h2>Der de lager skyer</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
-                <button class="btn btn-light">Les mer</button>
+                <p>
+                    Som barn trodde vi fabrikken lagde skyer. Etterhvert skjønte vi at de lagde papir, det fikk vi tegne på.
+                </p>
+                <button class="btn btn-light" onclick="redir('01')">Les mer</button>
             </div>
         </div>
     </div>
-    <!-- -->
-    <div class="preview" data-aos="fade-left">
-        <div class="preview-left">
-            <img src="{{ url_for('static', filename='images/article_3/01.jpg') }}" alt="">
-        </div>
-        <div class="preview-right">
-            <div class="text-container">
-                <h2>Klimafornekter Per</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, cum.</p>
-                <button class="btn btn-light">Les mer</button>
-            </div>
-        </div>
-    </div>
-    
 </div>
-
-
 
 {% endblock %}

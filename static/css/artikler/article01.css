@@ -1,5 +1,324 @@
-.stage {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
+#one {
+    background-image: url('/static/images/article01/1.jpg');
+}
+
+#one h2 {
+    font-family: 'Avory-i-latin';
+    font-size: 5rem;
+    color: white;
+    font-style: italic;
+}
+
+#two {
+    background-color: white !important;
+}
+
+#three {
+    background-image: url('/static/images/article01/2.jpg');
+}
+
+
+#five {
+    background-image: url('/static/images/article01/4.jpg');
+
+}
+
+#six {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#seven {
+    background-image: url('/static/images/article01/5.jpg');
+}
+
+#seven h2 {
+    font-family: 'Avory-i-latin';
+    font-size: 5rem;
+    color: white;
+    font-style: italic;
+}
+
+#eight {
+    background-color: white;
+
+}
+
+#eight p {
+    color: black;
+}
+
+#nine {
+    background-color: white;
+
+}
+
+#nine p {
+    color: black;
+}
+
+#ten {
+    background-color: white;
+
+}
+
+#ten p {
+    color: black;
+}
+
+#eleven {
+    background-image: url('/static/images/article01/9.jpg');
+}
+
+#eleven h2 {
+    font-family: 'Avory-i-latin';
+    font-size: 5rem;
+    color: black;
+    font-style: italic;
+}
+
+#twelve {
+    background-color: white;
+
+}
+
+#twelve p {
+    color: black;
+}
+
+#thirteen {
+    background-color: white;
+
+}
+
+#thirteen p {
+    color: black;
+}
+
+#fourteen {
+    background-image: url('/static/images/article01/12.jpg');
+}
+
+#fifteen {
+    background-color: white;
+
+}
+
+#fifteen p {
+    color: black;
+}
+
+#sixteen {
+    background-color: white;
+
+}
+
+#sixteen p {
+    color: black;
+}
+
+#seventeen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#seventeen p {
+    font-size: 2.5rem;
+}
+
+#eighteen {
+    background-image: url('/static/images/article01/15.jpg');
+
+}
+
+
+#eighteen  p {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#spacer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spacer p {
+    font-size: 2.5rem;
+    color: white;
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#nineteen {
+    background-image: url('/static/images/article01/16.jpg');
+
+}
+
+
+#nineteen  p {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#nineteen span {
+    color: red;
+}
+
+#twenty {
+    background-image: url('/static/images/article01/17.jpg');
+
+}
+
+
+#twenty  p {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#twenty span {
+    color: red;
+}
+
+#twentyone {
+    background-image: url('/static/images/article01/18.jpg');
+
+}
+
+
+#twentyone  p {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#twentyone span {
+    color: red;
+}
+
+#twentytwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#twentytwo  p {
+    color: white;
+}
+
+#twentythree {
+    background-color: white;
+}
+
+
+#twentythree p {
+    color: black;
+}
+
+#twentyfour {
+    background-color: white;
+
+}
+
+#twentyfour p {
+    color: black;
+}
+
+#twentyfive {
+    background-color: white;
+}
+
+#twentyfive p {
+    color: black;
+}
+
+#twentysix {
+    background-image: url('/static/images/article01/23.jpg');
+}
+
+#twentysix p {
+    font-size: 5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+#twentyseven {
+    background-color: white;
+}
+
+#twentyseven p {
+    color: black;
+}
+
+#twentyeight {
+    background-color: white;
+}
+
+#twentyeight p {
+    color: black;
+}
+
+#twentynine {
+    background-color: white;
+}
+
+#twentynine p {
+    color: black;
+}
+
+#thrity {
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#thirtyone {
+    background-image: url('/static/images/article01/27.jpg');
+}
+
+
+#thirtyone  p {
+    font-size: 2.5rem;
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+    width: auto !important;
+    padding: 0 10px;
+}
+
+
+
+/* RESPONSIVENESS */
+
+@media screen and (max-width: 500px) {
+    #six {
+        height: 170vh !important;
+    }    
+}
+
+@media screen and (max-width: 500px) {
+    #twentyseven {
+        height: 170vh !important;
+    }    
 }
