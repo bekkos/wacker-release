@@ -1,0 +1,25 @@
+#one {
+    background-image: url('/static/images/article02/2.jpg');
+}
+
+#one h2 {
+    color: black;
+    font-size: 6rem;
+    font-family: 'Avory-i-latin';
+    font-weight: 1000;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 1vw;
+    transform: translateY(-70px);
+}
+
+#two {
+    background: black;
+}
+
+#two p {
+    color: white;
+}
+
+#three p {
+    color: white;
+}

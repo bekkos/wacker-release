@@ -312,13 +312,56 @@
 /* RESPONSIVENESS */
 
 @media screen and (max-width: 500px) {
-    #six {
-        height: 170vh !important;
-    }    
-}
+    
+    p {
+        font-size: 1rem;
+    }
 
-@media screen and (max-width: 500px) {
     #twentyseven {
         height: 170vh !important;
-    }    
+    }
+    #four {
+        height: 100vh !important;
+    }
+    #eight {
+        height: 115vh !important;
+    }
+    #twelve, #thirteen, #fifteen, #sixteen {
+        height: 115vh !important
+    }
+
+    #five p{
+        font-size: 2rem !important;
+    }
+
+    #six {
+        min-height: 100vh !important;
+        height: auto !important;
+    }
+
+    #six p {
+        width: 90% !important;
+        display: block !important;
+    }
+
+    /* #twentythree, #twentyfour {
+        height: 200vh !important;
+    } */
+
+    #twentythree {
+
+    }
+
+    #twentysix p {
+        font-size: 1.5rem;
+    }
+
+    /* #twentyseven, #twentyeight, #twentynine {
+        height: 240vh !important;
+    } */
+}
+
+@media screen and (max-height: 600px) {
+
+
 }

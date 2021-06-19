@@ -1,4 +1,4 @@
-let menuState = false;
+let menuState = true;
 const toggleMenu = () => {
     if(menuState) {
         document.getElementById('hb-menu').style.display = "block";

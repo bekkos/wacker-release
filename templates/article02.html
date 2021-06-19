@@ -1,0 +1,37 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/general-article.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/artikler/article02.css') }}">
+<script>
+    function back() {
+        window.location.href = "./";
+    }
+</script>
+<title>Klimafornekter Per</title>
+{% endblock %}
+
+{% block body %}
+<!-- Link preview bilde, ikke fjern -->
+<img src="/static/images/article01/1.jpg" style="opacity:0;position: absolute; top:0;left:0;" alt="">
+<div class="back-button" onclick="back();">
+    <a>Tilbake</a>
+</div>
+<div class="stage fs-ct" id="one">
+    <h2 data-aos="fade-up" data-aos-duration="2000">KLIMAFORNEKTER PER</h2>
+</div>
+
+<div class="stage img-and-text" id="two">
+    <img data-aos="fade-right" data-aos-duration="2000" src=" {{ url_for('static', filename='images/article02/4.jpg') }} " alt="">
+    <p data-aos="fade-left" data-aos-duration="2000">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quidem!
+    </p>
+</div>
+
+<div class="stage vid-and-text" id="three">
+    <video controls data-aos="fade-right" data-aos-duration="2000" src=" {{ url_for('static', filename='images/article02/per-video.mp4') }} "></video>
+    
+</div>
+
+
+{% endblock %}
