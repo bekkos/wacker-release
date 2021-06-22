@@ -1,6 +1,7 @@
 {% extends 'layout.html' %}
 
 {% block head %}
+<title>Wacker Features</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
 <script>
     function redir(id) {
@@ -15,7 +16,7 @@
 {% include 'nav.html' %}
 <div class="preview-grid">
     <!-- -->
-    <div class="preview" data-aos="fade-right">
+    <div class="preview fotoreportasje" data-aos="fade-right">
         <div class="preview-left" style="float:right;">
             <img src="{{ url_for('static', filename='images/article01/fp.jpg') }}" alt="">
         </div>
@@ -26,6 +27,11 @@
                     Som barn trodde vi fabrikken lagde skyer. Etterhvert skjønte vi at de lagde papir, det fikk vi tegne på.
                 </p>
                 <button class="btn btn-light" onclick="redir('01')">Les mer</button>
+                <div class="taglist">
+                    <div class="tag">
+                        <p>FOTOREPORTASJE</p>
+                    </div>               
+                </div>
             </div>
         </div>
     </div>

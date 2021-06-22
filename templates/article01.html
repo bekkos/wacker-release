@@ -1,330 +1,329 @@
 {% extends 'layout.html' %}
 
 {% block head %}
-<link rel="stylesheet" href="{{ url_for('static', filename='css/general-article.css') }}">
-<link rel="stylesheet" href="{{ url_for('static', filename='css/artikler/article01.css') }}">
-<script>
-    function back() {
-        window.location.href = "./";
-    }
-</script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/wFramework-general.css') }}">
 <title>Der de lager skyer</title>
 {% endblock %}
 
 {% block body %}
 <!-- Link preview bilde, ikke fjern -->
 <img src="/static/images/article01/1.jpg" style="display:none;position: absolute; top:0;left:0;" alt="">
+<script>
+    function back() {
+        window.location.href = "/";
+    }
+</script>
 <div class="back-button" onclick="back();">
     <a>Tilbake</a>
 </div>
-<div class="stage fs-ct" id="one">
-    <h2 data-aos="fade-up" data-aos-duration="2000">Der de lager skyer</h2>
-</div>
-<div class="stage fs-ct" id="two">
-    <p data-aos="fade-up" data-aos-duration="2000">
-        Som barn trodde vi fabrikken lagde skyer. <br><br>
-        Etter hvert skjønte vi at de lagde papir, det fikk vi tegne på. <br><br>
-        Da vi vokste opp begynte vi å spille dataspill, tegning ble ikke like gøy lenger. <br><br>
-        Jeg flyttet til Oslo. Her kommer ikke avisen på døra, kun tynne hefter med reklame. <br><br>
-        Seint i august reiste jeg hjem, det kom ikke lengre skyer fra fabrikken. <br><br>
-    </p>
-</div>
+<div class="base">
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/1.jpg');">
+        <h1 data-aos="fade-up" data-aos-duration="2000">Der de lager skyer</h1>
+    </div>
+    <div class="stage text t-medium-small">
+        <p data-aos="fade-up" data-aos-duration="2000">
+            Som barn trodde vi fabrikken lagde skyer. <br><br>
+            Etter hvert skjønte vi at de lagde papir, det fikk vi tegne på. <br><br>
+            Da vi vokste opp begynte vi å spille dataspill, tegning ble ikke like gøy lenger. <br><br>
+            Jeg flyttet til Oslo. Her kommer ikke avisen på døra, kun tynne hefter med reklame. <br><br>
+            Seint i august reiste jeg hjem, det kom ikke lengre skyer fra fabrikken. <br><br>
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="three">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
-        I 1960 var ikke Skogn mer enn kornåkere og noen gårder.
-    </p>
-</div>
+    <div class="stage bg-image text t-white t-large" style="background-image: url('/static/images/article01/2.jpg');">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
+            I 1960 var ikke Skogn mer enn kornåkere og noen gårder.
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="four">
-    <img src="/static/images/article01/3.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
-        I 1965 fyltes bygda med hus, fagfolkene trengte et sted å bo.
-    </p>
-</div>
+    <div class="stage text-image bg-black t-white t-medium-large">
+        <img src="/static/images/article01/3.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
+            I 1965 fyltes bygda med hus, fagfolkene trengte et sted å bo.
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="five">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
-        Tidlig på 60-tallet ønsket en gruppe skogeiere å etablere
-        fabrikken for å få omsetning av tømmeret sitt lokalt. <br>
-        De samlet inn penger, allierte seg med politikere, fikk opplæring i Finland
-        og etablerte fabrikken i 1962.
-    </p>
-</div>
+    <div class="stage bg-image text t-white t-large" style="background-image: url('/static/images/article01/4.jpg');">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500" class="white-text-p-bg">
+            Tidlig på 60-tallet ønsket en gruppe skogeiere å etablere
+            fabrikken for å få omsetning av tømmeret sitt lokalt. <br>
+            De samlet inn penger, allierte seg med politikere, fikk opplæring i Finland
+            og etablerte fabrikken i 1962.
+        </p>
+    </div>
 
-<div class="stage" id="six">
-    <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="0">
-        Det er ikke før nå, i voksen alder, at jeg ser fabrikken for det den er. 
-        Den har alltid vært en bauta i bygda. Kom man kjørende fra nord eller sør 
-        og så de høye pipene som raget over trærene, visste man at man var hjemme. 
-        Den siste tiden har jeg brukt mye tid i samtaler med venner, familie og naboer. 
-        Jeg har tatt opp kontakten med de som en gang sto meg nærest. 
-        Jeg har pratet med de som er i live og om de som er døde. <br>
-    </p>
-    <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="250">
-        Etter å ha gått i bygdas sømmer, dens beboere og min egen historie ser jeg 
-        at fabrikken er en rød tråd som har fulgt oss gjennom livet. Den har vært 
-        bygdas levebrød og har formet kulturen på Skogn. De som jeg vokste opp med 
-        jobber nå på fabrikken. De er som et speilbilde av sine fedre som også jobber 
-        der. <br>
-    </p>
-    <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
-        Gjennom barne- og ungdomsår har vi ofte hørt at fabrikken vaklet, 
-        konsernet gikk konkurs og vi ble bekymrett. Men fabrikken har alltid 
-        klart seg gjennom krisene. <br>
+    <div class="stage text t-black t-medium">
+        <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="0">
+            Det er ikke før nå, i voksen alder, at jeg ser fabrikken for det den er. 
+            Den har alltid vært en bauta i bygda. Kom man kjørende fra nord eller sør 
+            og så de høye pipene som raget over trærene, visste man at man var hjemme. 
+            Den siste tiden har jeg brukt mye tid i samtaler med venner, familie og naboer. 
+            Jeg har tatt opp kontakten med de som en gang sto meg nærest. 
+            Jeg har pratet med de som er i live og om de som er døde. <br>
+        </p>
+        <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="250">
+            Etter å ha gått i bygdas sømmer, dens beboere og min egen historie ser jeg 
+            at fabrikken er en rød tråd som har fulgt oss gjennom livet. Den har vært 
+            bygdas levebrød og har formet kulturen på Skogn. De som jeg vokste opp med 
+            jobber nå på fabrikken. De er som et speilbilde av sine fedre som også jobber 
+            der. <br>
+        </p>
+        <p data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="500">
+            Gjennom barne- og ungdomsår har vi ofte hørt at fabrikken vaklet, 
+            konsernet gikk konkurs og vi ble bekymrett. Men fabrikken har alltid 
+            klart seg gjennom krisene. <br>
 
-        Men så kom korona-pandemien og kompisene mine ble permitterte.
-    </p>
-</div>
+            Men så kom korona-pandemien og kompisene mine ble permitterte.
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="seven">
-    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        Fabrikken var pensum på skolen
-    </h2>
-</div>
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/5.jpg');">
+        <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            Fabrikken var pensum på skolen
+        </h2>
+    </div>
 
-<div class="stage img-and-text" id="eight">
-    <img src="/static/images/article01/6.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        "En dag jeg jobbet med pakkemaskinene kom det en barneskoleklasse. 
-        Det fikk meg til å tenke på da vi var små og kom hit med skolen. 
-        Jeg husker at jeg så maskinene og tenkte wow.
-        "Nå jobber jeg med dem."
-    </p>
-</div>
+    <div class="stage text-image bg-white t-medium">
+        <img src="/static/images/article01/6.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            "En dag jeg jobbet med pakkemaskinene kom det en barneskoleklasse. 
+            Det fikk meg til å tenke på da vi var små og kom hit med skolen. 
+            Jeg husker at jeg så maskinene og tenkte wow.
+            "Nå jobber jeg med dem."
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="nine">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        Oskar Pettersen og jeg vokste opp sammen, vi lekte Lars Monsen og James Bond i skogen. 
-        <br>
-        Pappaen til Oskar jobbet på fabrikken, det var han som ga oss papir vi kunne tegne på. 
-        <br>
-        Oskar skal foråpentligvis ta fagbrev i januar og han håper på fast stilling. 
-        <br><br>
-        Mange av de som begynte på fabrikken på 80-tallet skal nå pensjoneres,
-        så lærlinger blir viktige for at fabrikken skal ha arbeidskraft.  
-    </p>
-    <img src="/static/images/article01/7.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image bg-white t-medium">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            Oskar Pettersen og jeg vokste opp sammen, vi lekte Lars Monsen og James Bond i skogen. 
+            <br>
+            Pappaen til Oskar jobbet på fabrikken, det var han som ga oss papir vi kunne tegne på. 
+            <br>
+            Oskar skal foråpentligvis ta fagbrev i januar og han håper på fast stilling. 
+            <br><br>
+            Mange av de som begynte på fabrikken på 80-tallet skal nå pensjoneres,
+            så lærlinger blir viktige for at fabrikken skal ha arbeidskraft.  
+        </p>
+        <img src="/static/images/article01/7.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage img-and-text" id="ten">
-    <img src="/static/images/article01/8.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        Vi spilte fotball mellom de gamle husene bygget for fagfolkene. 
-        Vi lærte oss gatene utenatt, 
-        <br>
-        men da vi begynte på ungdomskolen vokste vi fra hverandre.
-        <br><br>
-        Oskar ble elektriker. 
-        <br>
-        Jeg ble fotograf.
-    </p>
-</div>
+    <div class="stage text-image bg-white t-medium">
+        <img src="/static/images/article01/8.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            Vi spilte fotball mellom de gamle husene bygget for fagfolkene. 
+            Vi lærte oss gatene utenatt, 
+            <br>
+            men da vi begynte på ungdomskolen vokste vi fra hverandre.
+            <br><br>
+            Oskar ble elektriker. 
+            <br>
+            Jeg ble fotograf.
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="eleven">
-    <h2 data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        "Disse hendene bygde fabrikken"
-    </h2>
-</div>
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/9.jpg');">
+        <h1 class="t-bg-black" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            "Disse hendene bygde fabrikken"
+        </h1>
+    </div>
 
-<div class="stage img-and-text" id="twelve">
-    <img src="/static/images/article01/10.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        Viggo Tostrup er 87 år gammel, han kom til Skogn fra Danmark i 1950. 
-        <br>
-        Norske Skog ble etablert, Viggo fikk barn 
-        og fabrikken ga en stabil lønn. 
-        <br>
-        Viggo ble med å sprenge jernbanetunellen. 
-    </p>
-</div>
+    <div class="stage text-image t-medium t-black">
+        <img src="/static/images/article01/10.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            Viggo Tostrup er 87 år gammel, han kom til Skogn fra Danmark i 1950. 
+            <br>
+            Norske Skog ble etablert, Viggo fikk barn 
+            og fabrikken ga en stabil lønn. 
+            <br>
+            Viggo ble med å sprenge jernbanetunellen. 
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="thirteen">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        "Han som hadde jobben før meg fikk en stein i hodet og døde da."
-        <br><br>
-        "Selvsagt var det farlig arbeid, men godt betalt!" 
-    </p>
-    <img src="/static/images/article01/11.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image t-medium t-black">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            "Han som hadde jobben før meg fikk en stein i hodet og døde da."
+            <br><br>
+            "Selvsagt var det farlig arbeid, men godt betalt!" 
+        </p>
+        <img src="/static/images/article01/11.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage fs-ct" id="fourteen"></div>
+    <div class="stage bg-image" style="background-image: url('/static/images/article01/12.jpg');"></div>
 
-<div class="stage img-and-text" id="fifteen">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        "Det snakker vi ikke om nei" 
-        <br><br>
-        38 år jobbet Harald på fabrikken uten en sykedag. <br>
-        Da jeg tar det opp slår han seg vrang, 
-        det mente han ikke var noe spessielt. 
-        <br><br>
-        "Var mange der med god helse da"
-    </p>
-    <img src="/static/images/article01/13.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image t-medium t-black" id="fifteen">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            "Det snakker vi ikke om nei" 
+            <br><br>
+            38 år jobbet Harald på fabrikken uten en sykedag. <br>
+            Da jeg tar det opp slår han seg vrang, 
+            det mente han ikke var noe spessielt. 
+            <br><br>
+            "Var mange der med god helse da"
+        </p>
+        <img src="/static/images/article01/13.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage img-and-text" id="sixteen">
-    <img src="/static/images/article01/14.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        Fabrikken gikk fort fullt i mange tiår. 
-        I sin storhetstid hadde den 750 ansatte. 
-        <br><br>
-        I 1982 ble det bygget enda en papirmaskin på fabrikken i 
-        Skogn for å kunne tilfredsstille markedets etterspørsel. 
-    </p>
-</div>
+    <div class="stage text-image t-medium">
+        <img src="/static/images/article01/14.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            Fabrikken gikk fort fullt i mange tiår. 
+            I sin storhetstid hadde den 750 ansatte. 
+            <br><br>
+            I 1982 ble det bygget enda en papirmaskin på fabrikken i 
+            Skogn for å kunne tilfredsstille markedets etterspørsel. 
+        </p>
+    </div>
 
-<div class="stage" id="seventeen">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">"Din farfar jobbet der også."</p>
-</div>
+    <div class="stage text t-large">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="700">"Din farfar jobbet der også."</p>
+    </div>
 
-<div class="stage fs-ct" id="eighteen">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">Men etterhvert stoppet etterspørselen</p>
-</div>
-<div class="" id="spacer" style="height: 50px; background: black;">
-    <!-- <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">Det ble mørketid for fabrikken</p> -->
-</div>
-<div class="stage fs-ct" id="nineteen">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        2017: <span>-5%</span>
-    </p>
-</div>
+    <div class="stage bg-image text t-large t-black" style="background-image: url('/static/images/article01/15.jpg');">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">Men etterhvert stoppet etterspørselen</p>
+    </div>
+    <div class="" id="spacer" style="height: 50px; background: black;">
+        <!-- <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">Det ble mørketid for fabrikken</p> -->
+    </div>
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/16.jpg');">
+        <p class="t-bg-black" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            2017: <span class="t-red">-5%</span>
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="twenty">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        2018: <span>-5%</span>
-    </p>
-</div>
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/17.jpg');">
+        <p class="t-bg-black" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            2018: <span class="t-red">-5%</span>
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="twentyone">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        2019: <span>-7%</span>
-    </p>
-</div>
+    <div class="stage title bg-image t-large t-white" style="background-image: url('/static/images/article01/18.jpg');">
+        <p class="t-bg-black" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            2019: <span class="t-red">-7%</span>
+        </p>
+    </div>
 
-<div class="stage" id="twentytwo">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        Så i 2020 kom covid-19, markedet stagnerte og lagrene fyltes opp. 
-        <br><br>
-        Fredag 21. august ble store deler av Norske Skogs ansatte permittert. <br>
-        Produksjonen stoppet helt i  2 uker. 
-        <br><br>
-        For første gang siden 1980,
-        kom det ikke lenger noen skyer fra fabrikken.
-    </p>
-</div>
+    <div class="stage bg-black text t-white t-medium">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            Så i 2020 kom covid-19, markedet stagnerte og lagrene fyltes opp. 
+            <br><br>
+            Fredag 21. august ble store deler av Norske Skogs ansatte permittert. <br>
+            Produksjonen stoppet helt i  2 uker. 
+            <br><br>
+            For første gang siden 1980,
+            kom det ikke lenger noen skyer fra fabrikken.
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="twentythree">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        Sander Sørmo skal ta fagbrev i prosess og produksjon <br>
-        på fabrikken i mai 2021. 
-        <br><br>
-        Faren hans er bilmekaniker og bestefaren driver <br>
-        nabonyen Levanger sitt begravelsesbyrå. 
-        <br><br>
-        Det var mange retninger å gå, men som for mange andre <br> 
-        unge fristet fagbrev og jobb på fabrikken.
-    </p>
-    <img src="/static/images/article01/20.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image t-medium">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            Sander Sørmo skal ta fagbrev i prosess og produksjon <br>
+            på fabrikken i mai 2021. 
+            <br><br>
+            Faren hans er bilmekaniker og bestefaren driver <br>
+            nabonyen Levanger sitt begravelsesbyrå. 
+            <br><br>
+            Det var mange retninger å gå, men som for mange andre <br> 
+            unge fristet fagbrev og jobb på fabrikken.
+        </p>
+        <img src="/static/images/article01/20.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage img-and-text" id="twentyfour">
-    <img src="/static/images/article01/21.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        "Med tanke på at det e ca 350 ansatte, hvis vi plutselig 
-        blir slippi ut i arbeidsledigheta så har vi et problem, 
-        for vi plages jo litte granne med det fra før av"
-    </p>
-</div>
+    <div class="stage text-image t-medium">
+        <img src="/static/images/article01/21.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            "Med tanke på at det e ca 350 ansatte, hvis vi plutselig 
+            blir slippi ut i arbeidsledigheta så har vi et problem, 
+            for vi plages jo litte granne med det fra før av"
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="twentyfive">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        Faget prosess og produksjon var egentlig lagt 
-        ned på den lokale videregående skolen,
-        men etter et tett sammarbeid mellom skolen 
-        og fabrikken begynte de på igjen.
-        <br><br>
-        Fabrikken så styrken i lokal arbeidskraft. 
-        <br><br>
-        De merket at de som var født og oppvokst i 
-        nærheten av fabrikken hadde en større sansynlighet 
-        for å bli igjen på fabrikken. 
-    </p>
-    <img src="/static/images/article01/22.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image t-medium" id="twentyfive">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            Faget prosess og produksjon var egentlig lagt 
+            ned på den lokale videregående skolen,
+            men etter et tett sammarbeid mellom skolen 
+            og fabrikken begynte de på igjen.
+            <br><br>
+            Fabrikken så styrken i lokal arbeidskraft. 
+            <br><br>
+            De merket at de som var født og oppvokst i 
+            nærheten av fabrikken hadde en større sansynlighet 
+            for å bli igjen på fabrikken. 
+        </p>
+        <img src="/static/images/article01/22.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage fs-ct" id="twentysix">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">"Snu Norske Skog inn mot fremtiden"</p>
-</div>
+    <div class="stage bg-image title t-large t-white" style="background-image: url('/static/images/article01/23.jpg');">
+        <p class="t-bg-black" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">"Snu Norske Skog inn mot fremtiden"</p>
+    </div>
 
-<div class="stage img-and-text" id="twentyseven">
-    <img src="/static/images/article01/24.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        Selve konsernet Norske Skog har gått konkurs, <br>
-        men fabrikken på Skogn har alltid klart å ha profitt. 
-        <br><br>
-        "Denne uken kom de første nyhetene om nedstegning <br>
-        av andre papirfabrikker i Europa." 
-        <br><br>
-        "Det kan være en sjanse for oss å følge opp disse ordrene. <br>
-        Det gir oss litt ekstra tid til å jobbe med nye produkter og veien videre" 
-    </p>
-</div>
+    <div class="stage text-image t-medium">
+        <img src="/static/images/article01/24.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            Selve konsernet Norske Skog har gått konkurs, <br>
+            men fabrikken på Skogn har alltid klart å ha profitt. 
+            <br><br>
+            "Denne uken kom de første nyhetene om nedstegning <br>
+            av andre papirfabrikker i Europa." 
+            <br><br>
+            "Det kan være en sjanse for oss å følge opp disse ordrene. <br>
+            Det gir oss litt ekstra tid til å jobbe med nye produkter og veien videre" 
+        </p>
+    </div>
 
-<div class="stage img-and-text" id="twentyeight">
-    <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
-        Norske Skog Skogn skal prøve samle ressursene sine og bygge om maskinene 
-        til  å produsere <i>fiber</i>, et miljøvennelig råstoff for innpaking. 
-        <br><br>
-        "Vi vil ta del i å snu Norske Skog inn mot framtiden"
-    </p>
-    <img src="/static/images/article01/25.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
-</div>
+    <div class="stage text-image t-medium">
+        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay="500">
+            Norske Skog Skogn skal prøve samle ressursene sine og bygge om maskinene 
+            til  å produsere <i>fiber</i>, et miljøvennelig råstoff for innpaking. 
+            <br><br>
+            "Vi vil ta del i å snu Norske Skog inn mot framtiden"
+        </p>
+        <img src="/static/images/article01/25.jpg" alt="" data-aos="fade-left" data-aos-duration="2000" >
+    </div>
 
-<div class="stage img-and-text" id="twentynine">
-    <img src="/static/images/article01/26.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
-    <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
-        I 2019 ble Bjørn Einar Ugedal administrerende 
-        direktør på Norske Skog Skogn, <br>
-        ingen lett stilling å ta over. 
-        <br><br>
-        Med 360 ansatte under sin ledelse føler 
-        han på presset for å holde fabrikken gående. 
-        Men nå, selv om de henger etter med nyvinningen 
-        står fabrikken uten gjeld og mulighet til å gå framover 
-        inn i et nytt marked. 
-        <br><br>
-        "Jeg er overbevist om at vi kommer til å klare det, 
-        men idag har vi ikke alle svarene." 
-    </p>
-</div>
+    <div class="stage text-image t-medium">
+        <img src="/static/images/article01/26.jpg" alt="" data-aos="fade-right" data-aos-duration="2000" >
+        <p data-aos="fade-left" data-aos-duration="2000" data-aos-delay="500">
+            I 2019 ble Bjørn Einar Ugedal administrerende 
+            direktør på Norske Skog Skogn, <br>
+            ingen lett stilling å ta over. 
+            <br><br>
+            Med 360 ansatte under sin ledelse føler 
+            han på presset for å holde fabrikken gående. 
+            Men nå, selv om de henger etter med nyvinningen 
+            står fabrikken uten gjeld og mulighet til å gå framover 
+            inn i et nytt marked. 
+            <br><br>
+            "Jeg er overbevist om at vi kommer til å klare det, 
+            men idag har vi ikke alle svarene." 
+        </p>
+    </div>
 
-<div class="stage" id="thrity">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        "I '62 ble selvskapet stiftet, de satte seg sammen 
-        og 4 år senere startet den første papirmaskinen. 
-        Tenk at de klarte å få til det midt på 60-tallet.
-        <br><br>
-        Da må vi jaggu klare å bruke fundamentet og omstille oss. 
-        Det er mye mere komplekst idag, men å se at de klarte det er 
-        en motivasjon til at vi skal klare å vri oss slik at vi kan opprettholde og utvikle."
-        <br><br>
-        -Håvard Bukslein <br>
-        Porsjekt og utviklingssjef på Norske Skog Skogn.  
-    </p>
-</div>
+    <div class="stage text t-medium" >
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            "I '62 ble selvskapet stiftet, de satte seg sammen 
+            og 4 år senere startet den første papirmaskinen. 
+            Tenk at de klarte å få til det midt på 60-tallet.
+            <br><br>
+            Da må vi jaggu klare å bruke fundamentet og omstille oss. 
+            Det er mye mere komplekst idag, men å se at de klarte det er 
+            en motivasjon til at vi skal klare å vri oss slik at vi kan opprettholde og utvikle."
+            <br><br>
+            -Håvard Bukslein <br>
+            Porsjekt og utviklingssjef på Norske Skog Skogn.  
+        </p>
+    </div>
 
-<div class="stage fs-ct" id="thirtyone">
-    <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-        Igjen kommer det skyer fra Norske Skog.
-    </p>
-</div>
+    <div class="stage title t-large t-white" style="background-image: url('/static/images/article01/27.jpg');">
+        <p data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
+            Igjen kommer det skyer fra Norske Skog.
+        </p>
+    </div>
 
-<div class="credit">
-    <section>
-        <p>Tekst og foto: <a href="./om-oss">Sigve Bremer Mejdal</a></p>
-        <p>Visualisering for web: <a href="./om-oss">Martin Isaksen Bekkos / Sigve Bremer Mejdal</a></p>
-    </section>
+    <div class="stage text t-black bg-white">
+            <p>Tekst og foto: <a href="./om-oss">Sigve Bremer Mejdal</a></p>
+            <p>Visualisering for web: <a href="./om-oss">Martin Isaksen Bekkos / Sigve Bremer Mejdal</a></p>
+    </div>
 </div>
 
 

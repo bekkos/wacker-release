@@ -59,6 +59,26 @@
     
 }
 
+/* TAGS */
+.taglist {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tag {
+    width: 100px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 0.6rem;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    margin: 0 0.3vw;
+}
+
 
 /* MEDIA QUERIES */
 

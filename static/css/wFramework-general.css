@@ -1,0 +1,304 @@
+@import url("https://use.typekit.net/oxe7unb.css");
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'adobe-bengali', sans-serif;
+    font-weight: 400;
+}
+
+.base {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.stage {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.credit {
+    width: 100%;
+}
+
+.back-button {
+    width: 100px;
+    height: 26px;
+    line-height: 26px;
+    background-color: white;
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    opacity: 0.2;
+    transition-duration: 1s;
+}
+
+.back-button:hover {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/* --- */
+
+/* TEXT STYLE */
+.t-white {
+    color: white;
+}
+
+.t-black {
+    color: black;
+}
+
+.t-red {
+    color: red;
+}
+
+.t-bg-black {
+    background-color: rgba(0,0,0,0.4);
+    padding: 1vh 1vw;
+}
+
+.t-bg-white {
+    background-color: rgba(255,255,255,0.4);
+    padding: 1vh 1vw;
+}
+
+/* --- */
+
+/* BACKGROUND */
+.bg-white {
+    background-color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* --- */
+
+/* TITLE CARD */
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.title h1 {
+    font-weight: 500 !important;
+    font-family: 'Avory-i-latin', sans-serif;
+    overflow-y: hidden;
+}
+/* --- */
+
+/* TEXT AND IMAGE */
+.text-image {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text-image img {
+    width: 30%;
+    object-fit: contain;
+}
+
+.text-image p {
+    width: 50%;
+    text-align: center;
+}
+/* --- */
+
+/* TEXT ONLY */
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.text p {
+    width: 50%;
+    margin: 2vh 0;
+    text-align: center;
+}
+/* --- */
+
+
+/* FONT SIZES */
+.t-small {
+    font-size: 1rem;
+}
+
+.t-medium-small {
+    font-size: 1.25rem;
+}
+
+.t-medium {
+    font-size: 1.5rem;
+}
+
+.t-medium-large {
+    font-size: 1.75rem;
+}
+
+.t-large {
+    font-size: 2rem;
+}
+
+/* --- */
+
+
+@media screen and (max-width: 1100px) {
+    .text-image {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .text-image img {
+        width: 70%;
+        object-fit: contain;
+    }
+    
+    .text-image p {
+        width: 70%;
+        margin: 2vh;
+    }
+    
+    .text p {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .stage {
+        min-height: 100vh;
+    }
+    
+    .text-image img {
+        width: 80%;
+        object-fit: contain;
+    }
+    
+    .text-image p {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .t-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium {
+        font-size: 1.25rem;
+    }
+    
+    .t-medium-large {
+        font-size: 1.50rem;
+    }
+    
+    .t-large {
+        font-size: 1.75rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .text-image img {
+        margin: 4vh 0;
+    }
+    
+    .text-image p {
+        margin: 4vh 0; 
+    }
+
+    .t-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium {
+        font-size: 1rem;
+    }
+    
+    .t-medium-large {
+        font-size: 1.25rem;
+    }
+    
+    .t-large {
+        font-size: 1.50rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .text p {
+        width: 85%;
+    }
+    
+    .t-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium {
+        font-size: 1rem;
+    }
+    
+    .t-medium-large {
+        font-size: 1rem;
+    }
+    
+    .t-large {
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    
+    
+    .t-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium-small {
+        font-size: 1rem;
+    }
+    
+    .t-medium {
+        font-size: 1rem;
+    }
+    
+    .t-medium-large {
+        font-size: 1rem;
+    }
+    
+    .t-large {
+        font-size: 1rem;
+    }
+}
+
+
